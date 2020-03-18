@@ -20,7 +20,7 @@ body {
 
 $background-color: #FFFFFF;
 $text-color: #333333;
-$text-light-color: rgba(0,0,0,0.6);
+$text-light-color: rgba(0,0,0,0.7);
 $text-dark-color: #000000;
 
 /*- Base settings -*/
@@ -45,7 +45,7 @@ body {
 a {
 	color: $text-color;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 600;
 	&:hover,
 	&:focus {
 		color: darken($text-color, 5%);
